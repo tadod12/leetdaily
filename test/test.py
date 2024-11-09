@@ -25,4 +25,6 @@
 # backtracking(res[0])
 
 # print([0] * 3)
-print(7^(7>>1))
+# print(7^(7>>1))
+
+print(1234 % 100)
