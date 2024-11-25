@@ -33,37 +33,42 @@
 # test[1] = 2
 # print(test)
 
-nums = [3,2,1,5,6,4]
-k = 2
-sorted_nums = [0] * len(nums)
+# nums = [3,2,1,5,6,4]
+# k = 2
+# sorted_nums = [0] * len(nums)
 
-def divide(left, right):
-    if left == right:
-        return
-    mid = (left + right) // 2  
-    divide(left, mid)
-    divide(mid + 1, right)
-    conquer(left, mid, right)
+# def divide(left, right):
+#     if left == right:
+#         return
+#     mid = (left + right) // 2  
+#     divide(left, mid)
+#     divide(mid + 1, right)
+#     conquer(left, mid, right)
 
-def conquer(left, mid, right):
-    tmp_l, tmp_r = left, mid + 1
-    for i in range(left, right + 1):
-        if tmp_l <= mid and tmp_r <= right:
-            if nums[tmp_l] >= nums[tmp_r]:
-                sorted_nums[i] = nums[tmp_l]  
-                tmp_l += 1
-            else: 
-                sorted_nums[i] = nums[tmp_r]
-                tmp_r += 1
-        else:
-            if tmp_l <= mid:
-                sorted_nums[i] = nums[tmp_l]
-                tmp_l += 1
-            elif tmp_r <= right:
-                sorted_nums[i] = nums[tmp_r]
-                tmp_r += 1
-    nums[left:right+1] = sorted_nums[left:right+1]
+# def conquer(left, mid, right):
+#     tmp_l, tmp_r = left, mid + 1
+#     for i in range(left, right + 1):
+#         if tmp_l <= mid and tmp_r <= right:
+#             if nums[tmp_l] >= nums[tmp_r]:
+#                 sorted_nums[i] = nums[tmp_l]  
+#                 tmp_l += 1
+#             else: 
+#                 sorted_nums[i] = nums[tmp_r]
+#                 tmp_r += 1
+#         else:
+#             if tmp_l <= mid:
+#                 sorted_nums[i] = nums[tmp_l]
+#                 tmp_l += 1
+#             elif tmp_r <= right:
+#                 sorted_nums[i] = nums[tmp_r]
+#                 tmp_r += 1
+#     nums[left:right+1] = sorted_nums[left:right+1]
 
 
-divide(0, len(nums) - 1)
+# divide(0, len(nums) - 1)
 # print(sorted_nums)
+
+for i in range(5, 0, -1):
+    if i == 3:
+        break
+print(i)
