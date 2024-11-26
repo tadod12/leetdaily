@@ -68,7 +68,23 @@
 # divide(0, len(nums) - 1)
 # print(sorted_nums)
 
-for i in range(5, 0, -1):
-    if i == 3:
-        break
-print(i)
+# for i in range(5, 0, -1):
+#     if i == 3:
+#         break
+# print(i)
+
+# txt = "Hello my FRIENDS 2"
+# x = txt.lower()
+# print(x)
+
+# print('A'.lower())
+
+def valid_char(c):
+    if '0' <= c <= '9' \
+        or 'a' <= c <= 'z' \
+        or 'A' <= c <= 'Z':
+        print("ok")
+    else:
+        print("not ok")
+
+valid_char('?')
