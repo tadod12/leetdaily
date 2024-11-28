@@ -79,12 +79,15 @@
 
 # print('A'.lower())
 
-def valid_char(c):
-    if '0' <= c <= '9' \
-        or 'a' <= c <= 'z' \
-        or 'A' <= c <= 'Z':
-        print("ok")
-    else:
-        print("not ok")
+# def valid_char(c):
+#     if '0' <= c <= '9' \
+#         or 'a' <= c <= 'z' \
+#         or 'A' <= c <= 'Z':
+#         print("ok")
+#     else:
+#         print("not ok")
 
-valid_char('?')
+# valid_char('?')
+
+stack = [1, 2, 3]
+print(stack[:-2])
