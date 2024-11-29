@@ -20,7 +20,7 @@ class Solution(object):
 
 """ A little hint
     A) 1 - 2 - 3 \
-                5 - 6
+                  5 - 6
     B)         4 /
     To walk all A then B: 1,2,3,5,6,4,5,6
     To walk all B then A: 4,5,6,1,2,3,5,6
