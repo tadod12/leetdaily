@@ -119,3 +119,8 @@
 
 # quick_sort(0, len(arr) - 1)
 # print(arr)
+
+nums = [3, -2, 1, 4]
+print(nums[0:2])
+
+# print(1 in range(0, 1))
