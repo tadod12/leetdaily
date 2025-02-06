@@ -27,7 +27,7 @@ def get_badges():
 
 def get_problems():
     """Get all problems from solutions directory"""
-    dir = ".\\solutions"
+    dir = "./solutions"
     problems = {}
 
     for root, _, filenames in os.walk(dir):
