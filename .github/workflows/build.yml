@@ -37,5 +37,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update README.md"
-            git push
+            git push origin main
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
