@@ -17,8 +17,8 @@ def get_work_info():
 def get_ranking():
     url = "https://alfa-leetcode-api.onrender.com/tadod"
     response = requests.get(url)
-    if response.status_code == 200 and response.json()["badgesCount"] > 0:
-        return response.json()["badges"]
+    if response.status_code == 200:
+        return response.json()["ranking"]
     else:
         print("Error: ", response.status_code)
         return None
@@ -29,6 +29,8 @@ def get_badges():
     url = "https://alfa-leetcode-api.onrender.com/tadod/badges"
     response = requests.get(url)
     if response.status_code == 200:
+        if response.json()["badgesCount"] == 0:
+            return None
         return response.json()["badges"]
     else:
         print("Error: ", response.status_code)
@@ -108,9 +110,9 @@ def build_readme():
 
         for problem_id, problem in sorted(problems.items()):
             problem_info = f"| {problem_id} | " + \
-                f"[{problem['name']}](https://leetcode.com/problems/{problem['name'].replace(' ', '-').lower()}) | " + \
-                f"{problem['topic']} | " + \
-                f"[Solution]({problem['path']}) |"
+                f"[{problem["name"]}](https://leetcode.com/problems/{problem['name'].replace(' ', '-').lower()}) | " + \
+                f"{problem["topic"]} | " + \
+                f"[Solution]({problem["path"]}) |"
             f.write(problem_info + "\n")
 
 
