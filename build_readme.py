@@ -70,9 +70,11 @@ def build_readme():
 
     with open("README.md", "w") as f:
         # Repo badge
-        repo_badges = "<div align=\"center\">\n" + \
+        repo_badges = "<div align=\"center\">\n\n" + \
             "[![CI](https://github.com/fastify/fastify/workflows/ci/badge.svg)](https://github.com/fastify/fastify/actions/workflows/ci.yml)\n" + \
             "[![py-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)\n" + \
+            "[![License: MIT](https://cdn.prod.website-files.com/5e0f1144930a8bc8aace526c/65dd9eb5aaca434fac4f1c34_License-MIT-blue.svg)](/LICENSE)\n" + \
+            "[![Deps](https://cdn.prod.website-files.com/5e0f1144930a8bc8aace526c/65dd9eb5aaca434fac4f1c9e_Deps-Up--to--date-brightgreen.svg)]()\n\n" + \
             "</div>\n\n"
         f.write(repo_badges)
 
