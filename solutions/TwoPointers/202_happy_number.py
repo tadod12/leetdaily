@@ -11,10 +11,12 @@ class Solution(object):
                 res += (n % 10)**2
                 n //= 10
             return res
+
+        # Beats 74.08%
         for i in range(0, 10):
             n = calculate(n)
             if n == 1:
                 return True
         return False
-        
-# Beats 74.08%
+
+        # Can not use fast & slow pointers

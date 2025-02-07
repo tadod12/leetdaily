@@ -3,8 +3,18 @@ import re
 import requests
 
 
-def get_ranking():
+def get_work_info():
     """Get user's info from leetcode"""
+    url = "https://alfa-leetcode-api.onrender.com/userProfile/tadod"
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print("Error: ", response.status_code)
+        return None
+
+
+def get_ranking():
     url = "https://alfa-leetcode-api.onrender.com/tadod"
     response = requests.get(url)
     if response.status_code == 200:
@@ -52,16 +62,33 @@ def build_readme():
     """Build README.md"""
     # Get information
     ranking = get_ranking()
+    w = get_work_info()
     badges = get_badges()
     problems = get_problems()
 
     with open("README.md", "w") as f:
+        # Repo badge
+        badges = "<div align=\"center\">\n" + \
+            "[![CI](https://github.com/fastify/fastify/workflows/ci/badge.svg)](https://github.com/fastify/fastify/actions/workflows/ci.yml)\n" + \
+            "[![py-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)\n" + \
+            "</div>\n\n"
+        f.write(badges)
+
         # Heading 1
         f.write("# Daily solving LeetCode problems\n\n")
 
         # User
         if ranking is not None:
             f.write(f"### Ranking: {ranking}\n\n")
+
+        if w is not None:
+            f.write("### Progress: ")
+            f.write(f"{w["totalSolved"]}/{w["totalQuestions"]}\n\n")
+            f.write("| Difficulty | Solved | Total |\n")
+            f.write("|------------|--------|-------|\n")
+            f.write(f"| Easy | {w["easySolved"]} | {w["totalEasy"]} |\n")
+            f.write(f"| Medium | {w["mediumSolved"]} | {w["totalMedium"]} |\n")
+            f.write(f"| Hard | {w["hardSolved"]} | {w["totalHard"]} |\n\n")
 
         # Badges
         if badges is not None:
@@ -75,6 +102,7 @@ def build_readme():
             f.write("\n\n")
 
         # Problems
+        f.write("## Problems solved\n\n")
         f.write("| Problem ID | Problem Name | Topic | Solution |\n")
         f.write("|------------|--------------|-------|------|\n")
 

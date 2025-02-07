@@ -10,16 +10,26 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
-        checked = {}
-        i = head
-        if i:
-            checked[i] = True
-            while i.next:
-                if i.next in checked:
-                    return True
-                checked[i] = True
-                i = i.next
-        return False
-    
-# This is not two pointers
-# 46.36%
+
+        # This is not two pointers
+        # 46.36%
+        # checked = {}
+        # i = head
+        # if i:
+        #     checked[i] = True
+        #     while i.next:
+        #         if i.next in checked:
+        #             return True
+        #         checked[i] = True
+        #         i = i.next
+        # return False
+
+        # Fast & Slow pointers
+        # 79.76%
+        fast, slow = head, head
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+            if fast == slow:
+                return True
+        return True
