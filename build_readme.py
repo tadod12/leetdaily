@@ -17,8 +17,8 @@ def get_work_info():
 def get_ranking():
     url = "https://alfa-leetcode-api.onrender.com/tadod"
     response = requests.get(url)
-    if response.status_code == 200:
-        return response.json()["ranking"]
+    if response.status_code == 200 and response.json()["badgesCount"] > 0:
+        return response.json()["badges"]
     else:
         print("Error: ", response.status_code)
         return None
@@ -95,9 +95,9 @@ def build_readme():
             f.write("## Badges\n\n")
             for badge in badges:
                 img = "<img " + \
-                    f"src=\"{badge['icon']}\" " + \
+                    f"src=\"{badge["icon"]}\" " + \
                     "style=\"width: 100px;\" " + \
-                    f"title=\"{badge['displayName']}\" />"
+                    f"title=\"{badge["displayName"]}\" />"
                 f.write(img)
             f.write("\n\n")
 
