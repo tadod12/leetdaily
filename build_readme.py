@@ -70,11 +70,11 @@ def build_readme():
 
     with open("README.md", "w") as f:
         # Repo badge
-        badges = "<div align=\"center\">\n" + \
+        repo_badges = "<div align=\"center\">\n" + \
             "[![CI](https://github.com/fastify/fastify/workflows/ci/badge.svg)](https://github.com/fastify/fastify/actions/workflows/ci.yml)\n" + \
             "[![py-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)\n" + \
             "</div>\n\n"
-        f.write(badges)
+        f.write(repo_badges)
 
         # Heading 1
         f.write("# Daily solving LeetCode problems\n\n")
@@ -96,6 +96,7 @@ def build_readme():
         if badges is not None:
             f.write("## Badges\n\n")
             for badge in badges:
+                # print(badge)
                 img = "<img " + \
                     f"src=\"{badge["icon"]}\" " + \
                     "style=\"width: 100px;\" " + \
