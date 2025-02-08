@@ -9,7 +9,7 @@
 
 # Daily solving LeetCode problems
 
-### Ranking: 837579
+### Ranking: 832378
 
 ### Progress: 136/3445
 
