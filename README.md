@@ -8,15 +8,16 @@
 </div>
 
 # Daily solving LeetCode problems
+Last Updated: 2025-02-08 08:28:14
 
 ### Ranking: 832378
 
-### Progress: 136/3445
+### Progress: 138/3445
 
 | Difficulty | Solved | Total |
 |------------|--------|-------|
-| Easy | 96 | 856 |
-| Medium | 39 | 1793 |
+| Easy | 97 | 856 |
+| Medium | 40 | 1793 |
 | Hard | 1 | 796 |
 
 ## Badges
@@ -42,6 +43,7 @@
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | TwoPointers | [Solution](./solutions/TwoPointers/125_valid_palindrome.py) |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | TwoPointers | [Solution](./solutions/TwoPointers/141_linked_list_cycle.py) |
 | 142 | [Linked List Cycle Ii](https://leetcode.com/problems/linked-list-cycle-ii) | TwoPointers | [Solution](./solutions/TwoPointers/142_linked_list_cycle_ii.py) |
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list) | TwoPointers | [Solution](./solutions/TwoPointers/143_reorder_list.py) |
 | 160 | [Intersection Of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | TwoPointers | [Solution](./solutions/TwoPointers/160_intersection_of_two_linked_lists.py) |
 | 191 | [Number Of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | Others | [Solution](./solutions/Others/191_number_of_1_bits.py) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | TwoPointers | [Solution](./solutions/TwoPointers/202_happy_number.py) |
@@ -61,6 +63,7 @@
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Others | [Solution](./solutions/Others/509_fibonacci_number.py) |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) | SlidingWindow | [Solution](./solutions/SlidingWindow/594_longest_harmonious_subsequence.py) |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | SlidingWindow | [Solution](./solutions/SlidingWindow/643_maximum_average_subarray_i.py) |
+| 876 | [Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | TwoPointers | [Solution](./solutions/TwoPointers/876_middle_of_the_linked_list.py) |
 | 1422 | [Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | PrefixSum | [Solution](./solutions/PrefixSum/1422_maximum_score_after_splitting_a_string.py) |
 | 1480 | [Running Sum Of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array) | PrefixSum | [Solution](./solutions/PrefixSum/1480_running_sum_of_1d_array.py) |
 | 1763 | [Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring) | Others | [Solution](./solutions/Others/1763_longest_nice_substring.py) |
