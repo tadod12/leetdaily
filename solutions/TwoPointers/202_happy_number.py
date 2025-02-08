@@ -12,11 +12,18 @@ class Solution(object):
                 n //= 10
             return res
 
-        # Beats 74.08%
-        for i in range(0, 10):
-            n = calculate(n)
-            if n == 1:
-                return True
-        return False
+        # ridiculous solution
+        # for i in range(0, 10):
+        #     n = calculate(n)
+        #     if n == 1:
+        #         return True
+        # return False
 
-        # Can not use fast & slow pointers
+        # fast & slow pointers
+        slow = calculate(n)
+        fast = calculate(calculate(n))
+        while slow != fast:
+            slow = calculate(slow)
+            fast = calculate(calculate(fast))
+        return slow == 1
+        # 71.80%

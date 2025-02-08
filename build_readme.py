@@ -1,6 +1,7 @@
 import os
 import re
 import requests
+from datetime import datetime
 
 
 def get_work_info():
@@ -79,7 +80,10 @@ def build_readme():
         f.write(repo_badges)
 
         # Heading 1
-        f.write("# Daily solving LeetCode problems\n\n")
+        f.write("# Daily solving LeetCode problems\n")
+        # Update time
+        update_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        f.write(f"Last Updated: {update_time}\n\n")
 
         # User
         if ranking is not None:
