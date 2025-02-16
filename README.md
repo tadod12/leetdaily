@@ -8,17 +8,17 @@
 </div>
 
 # Daily solving LeetCode problems
-<small>Last Updated: 08:05:35 16-02-2025</small>
+<small>Last Updated: 15:09:48 16-02-2025</small>
 
 ### Ranking: 815531
 
-### Progress: 140/3455
+### Progress: 142/3459
 
 | Difficulty | Solved | Total |
 |------------|--------|-------|
-| Easy | 99 | 858 |
-| Medium | 40 | 1796 |
-| Hard | 1 | 801 |
+| Easy | 99 | 859 |
+| Medium | 42 | 1798 |
+| Hard | 1 | 802 |
 
 ## Badges
 
@@ -28,6 +28,7 @@
 
 | Problem ID | Problem Name | Topic | Solution |
 |------------|--------------|-------|------|
+| 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | LinkedList | [Solution](./solutions/LinkedList/24_swap_nodes_in_pairs.py) |
 | 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | TwoPointers | [Solution](./solutions/TwoPointers/26_remove_duplicates_from_sorted_array.py) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element) | TwoPointers | [Solution](./solutions/TwoPointers/27_remove_element.py) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | BinarySearch | [Solution](./solutions/BinarySearch/35_search_insert_position.py) |
