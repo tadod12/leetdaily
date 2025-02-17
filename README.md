@@ -8,21 +8,7 @@
 </div>
 
 # Daily solving LeetCode problems
-<small>Last Updated: 08:03:09 17-02-2025</small>
-
-### Ranking: 805140
-
-### Progress: 142/3459
-
-| Difficulty | Solved | Total |
-|------------|--------|-------|
-| Easy | 99 | 859 |
-| Medium | 42 | 1798 |
-| Hard | 1 | 802 |
-
-## Badges
-
-<img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" style="width: 100px;" title="50 Days Badge 2024" /><img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.png" style="width: 100px;" title="Top SQL 50" />
+<small>Last Updated: 22:28:38 17-02-2025</small>
 
 ## Problems solved
 
@@ -63,6 +49,7 @@
 | 350 | [Intersection Of Two Arrays Ii](https://leetcode.com/problems/intersection-of-two-arrays-ii) | TwoPointers | [Solution](./solutions/TwoPointers/350_intersection_of_two_arrays_ii.py) |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square) | BinarySearch | [Solution](./solutions/BinarySearch/367_valid_perfect_square.py) |
 | 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies) | TwoPointers | [Solution](./solutions/TwoPointers/455_assign_cookies.py) |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | Stack | [Solution](./solutions/Stack/496_next_greater_element_i.py) |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Recursion | [Solution](./solutions/Recursion/509_fibonacci_number.py) |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) | SlidingWindow | [Solution](./solutions/SlidingWindow/594_longest_harmonious_subsequence.py) |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | SlidingWindow | [Solution](./solutions/SlidingWindow/643_maximum_average_subarray_i.py) |
