@@ -8,21 +8,7 @@
 </div>
 
 # Daily solving LeetCode problems
-<small>Last Updated: 08:00:55 19-02-2025</small>
-
-### Ranking: 801115
-
-### Progress: 143/3460
-
-| Difficulty | Solved | Total |
-|------------|--------|-------|
-| Easy | 100 | 859 |
-| Medium | 42 | 1799 |
-| Hard | 1 | 802 |
-
-## Badges
-
-<img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" style="width: 100px;" title="50 Days Badge 2024" /><img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.png" style="width: 100px;" title="Top SQL 50" />
+<small>Last Updated: 22:30:33 19-02-2025</small>
 
 ## Problems solved
 
@@ -67,6 +53,7 @@
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Recursion | [Solution](./solutions/Recursion/509_fibonacci_number.py) |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence) | SlidingWindow | [Solution](./solutions/SlidingWindow/594_longest_harmonious_subsequence.py) |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | SlidingWindow | [Solution](./solutions/SlidingWindow/643_maximum_average_subarray_i.py) |
+| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | Stack | [Solution](./solutions/Stack/739_daily_temperatures.py) |
 | 876 | [Middle Of The Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | TwoPointers | [Solution](./solutions/TwoPointers/876_middle_of_the_linked_list.py) |
 | 1422 | [Maximum Score After Splitting A String](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | PrefixSum | [Solution](./solutions/PrefixSum/1422_maximum_score_after_splitting_a_string.py) |
 | 1480 | [Running Sum Of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array) | PrefixSum | [Solution](./solutions/PrefixSum/1480_running_sum_of_1d_array.py) |
