@@ -8,17 +8,9 @@
 </div>
 
 # Daily solving LeetCode problems
-<small>Last Updated: 08:03:27 05-03-2025</small>
+<small>Last Updated: 08:08:18 06-03-2025</small>
 
-### Ranking: 805341
-
-### Progress: 144/3476
-
-| Difficulty | Solved | Total |
-|------------|--------|-------|
-| Easy | 100 | 863 |
-| Medium | 43 | 1807 |
-| Hard | 1 | 806 |
+### Ranking: 806037
 
 ## Badges
 
