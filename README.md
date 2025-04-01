@@ -8,7 +8,21 @@
 </div>
 
 # Daily solving LeetCode problems
-<small>Last Updated: 08:09:03 31-03-2025</small>
+<small>Last Updated: 08:13:28 01-04-2025</small>
+
+### Ranking: 823483
+
+### Progress: 144/3506
+
+| Difficulty | Solved | Total |
+|------------|--------|-------|
+| Easy | 100 | 870 |
+| Medium | 43 | 1819 |
+| Hard | 1 | 817 |
+
+## Badges
+
+<img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" style="width: 100px;" title="50 Days Badge 2024" /><img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.png" style="width: 100px;" title="Top SQL 50" />
 
 ## Problems solved
 
