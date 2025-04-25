@@ -9,11 +9,11 @@
 
 <div align="center">
 
-	# Daily solving LeetCode problems
+# Daily solving LeetCode problems
 
 </div>
 
-<small>Last Updated: 09:09:59 25-04-2025</small>
+<small>Last Updated: 09:11:09 25-04-2025</small>
 
 ### Ranking: 838930
 
