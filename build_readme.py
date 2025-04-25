@@ -82,8 +82,8 @@ def build_readme():
         # Heading 1
         title = """
             <div align="center">
-            # Daily solving LeetCode problems
-            </div>
+                # Daily solving LeetCode problems
+            </div>\n\n
         """
         f.write(title)
         # Update time
