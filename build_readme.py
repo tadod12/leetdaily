@@ -80,7 +80,12 @@ def build_readme():
         f.write(repo_badges)
 
         # Heading 1
-        f.write("# Daily solving LeetCode problems\n")
+        title = """
+            <div align="center">
+            # Daily solving LeetCode problems
+            </div>
+        """
+        f.write(title)
         # Update time
         update_time = (datetime.now() + timedelta(hours=7)) \
             .strftime("%H:%M:%S %d-%m-%Y")
