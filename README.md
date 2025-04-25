@@ -7,13 +7,8 @@
 
 </div>
 
-<div align="center">
-
 # Daily solving LeetCode problems
-
-</div>
-
-<small>Last Updated: 08:07:52 25-04-2025</small>
+<small>Last Updated: 09:02:10 25-04-2025</small>
 
 ### Ranking: 838930
 
