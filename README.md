@@ -13,21 +13,7 @@
 
 </div>
 
-<small>Last Updated: 08:18:08 31-07-2025</small>
-
-### Ranking: 904627
-
-### Progress: 144/3632
-
-| Difficulty | Solved | Total |
-|------------|--------|-------|
-| Easy | 100 | 886 |
-| Medium | 43 | 1889 |
-| Hard | 1 | 857 |
-
-## Badges
-
-<img src="https://assets.leetcode.com/static_assets/marketing/2024-50-lg.png" style="width: 100px;" title="50 Days Badge 2024" /><img src="https://assets.leetcode.com/static_assets/others/Top_SQL_50.png" style="width: 100px;" title="Top SQL 50" />
+<small>Last Updated: 08:25:39 01-08-2025</small>
 
 ## Problems solved
 
