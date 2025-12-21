@@ -13,17 +13,17 @@
 
 </div>
 
-<small>Last Updated: 08:10:46 20-12-2025</small>
+<small>Last Updated: 08:19:30 21-12-2025</small>
 
-### Ranking: 998252
+### Ranking: 998784
 
-### Progress: 144/3778
+### Progress: 144/3782
 
 | Difficulty | Solved | Total |
 |------------|--------|-------|
 | Easy | 100 | 917 |
-| Medium | 43 | 1969 |
-| Hard | 1 | 892 |
+| Medium | 43 | 1972 |
+| Hard | 1 | 893 |
 
 ## Badges
 
