@@ -13,17 +13,9 @@
 
 </div>
 
-<small>Last Updated: 09:38:38 06-06-2026</small>
+<small>Last Updated: 09:57:06 07-06-2026</small>
 
-### Ranking: 1109867
-
-### Progress: 144/3949
-
-| Difficulty | Solved | Total |
-|------------|--------|-------|
-| Easy | 100 | 947 |
-| Medium | 43 | 2063 |
-| Hard | 1 | 939 |
+### Ranking: 1110552
 
 ## Badges
 
