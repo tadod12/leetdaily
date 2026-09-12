@@ -13,7 +13,17 @@
 
 </div>
 
-<small>Last Updated: 09:33:11 11-09-2026</small>
+<small>Last Updated: 09:42:27 12-09-2026</small>
+
+### Ranking: 1199662
+
+### Progress: 144/4047
+
+| Difficulty | Solved | Total |
+|------------|--------|-------|
+| Easy | 100 | 963 |
+| Medium | 43 | 2111 |
+| Hard | 1 | 973 |
 
 ## Problems solved
 
