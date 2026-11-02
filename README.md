@@ -13,17 +13,7 @@
 
 </div>
 
-<small>Last Updated: 10:51:01 01-11-2026</small>
-
-### Ranking: 1235821
-
-### Progress: 144/4096
-
-| Difficulty | Solved | Total |
-|------------|--------|-------|
-| Easy | 100 | 974 |
-| Medium | 43 | 2136 |
-| Hard | 1 | 986 |
+<small>Last Updated: 10:55:19 02-11-2026</small>
 
 ## Badges
 
